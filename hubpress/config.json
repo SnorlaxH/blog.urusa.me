@@ -6,7 +6,12 @@
     "cname": "blog.urusa.me"
   },
   "site": {},
-  "socialnetwork": {},
+  "socialnetwork": {
+    "email": "starboard@urusa.me",
+    "facebook": "cwh9702",
+    "instagram": "cwh9702",
+    "github": "snorlaxh"
+  },
   "theme": {
     "name": "casper"
   }
