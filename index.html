@@ -38,9 +38,9 @@
     <link href="//fonts.googleapis.com/" rel="dns-prefetch">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
-    <link rel="stylesheet" href="//blog.urusa.me/themes/ghostium/assets/css/main.min.css?v=1476864842126"/>
-    <link rel="stylesheet" href="//blog.urusa.me/themes/ghostium/assets/css/custom.css?v=1476864842126"/>
-    <link rel="stylesheet" href="//blog.urusa.me/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1476864842126"/>
+    <link rel="stylesheet" href="//blog.urusa.me/themes/ghostium/assets/css/main.min.css?v=1476864874623"/>
+    <link rel="stylesheet" href="//blog.urusa.me/themes/ghostium/assets/css/custom.css?v=1476864874623"/>
+    <link rel="stylesheet" href="//blog.urusa.me/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1476864874623"/>
 
 
 
@@ -70,12 +70,27 @@
       GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
     </script>
 
-    <script src="//blog.urusa.me/themes/ghostium/assets/js/head-scripts.min.js?v=1476864842126"></script>
+    <script src="//blog.urusa.me/themes/ghostium/assets/js/head-scripts.min.js?v=1476864874623"></script>
+
+    <link rel="canonical" href="http://blog.urusa.me/" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="SnorlaxH" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SnorlaxH" />
+    <meta property="og:url" content="http://blog.urusa.me/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="SnorlaxH" />
+    <meta name="twitter:url" content="http://blog.urusa.me/" />
+    
+    <script type="application/ld+json">
+null
+    </script>
 
     <meta name="generator" content="HubPress" />
     <link rel="alternate" type="application/rss+xml" title="SnorlaxH" href="http://blog.urusa.me/rss/" />
   </head>
-  <body class="">
+  <body class="home-template">
 
     <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
     <nav tabindex="-1" class="drawer">
@@ -137,10 +152,35 @@
     SnorlaxH
 
     <section class="post-list">
+        <article itemscope itemtype="http://schema.org/BlogPosting"
+          role="article" class="post-item post">
+          <header class="post-item-header">
+            <h2 itemprop="name" class="post-item-title">
+              <a href="http://blog.urusa.me/2016/10/19/Java-SH-A.html" itemprop="url" data-pjax title="Java SHA3 암호화 라이브러리">
+                Java SHA3 암호화 라이브러리
+              </a>
+            </h2>
+          </header>
+          <section itemprop="description" class="post-item-excerpt">
+            <p>BouncyCastle 라이브러리를 이용하여 Java에서 SHA3 암호화를 할 수 있다. MIT License의 라이브러리이며 SHA3 이외에 다른 암호화 방식도 지원한다. CrtyoSHA3의 key값에는 암호화할 문자를 넣으면 되고 hash값에는 224, 256, 384, 512중 하나를 넣어주면 된다. 소스코드 public class&hellip;</p>
+          </section>
+          <footer class="post-item-footer">
+            <ul class="post-item-meta-list">
+              <li class="post-item-meta-item">
+                <time datetime="2016-10-19" itemprop="datePublished">
+                  17 hours ago
+                </time>
+              </li>
+              <li class="post-item-meta-item">
+                <a href="http://blog.urusa.me/2016/10/19/Java-SH-A.html#disqus_thread" data-pjax data-disqus-identifier="">Comments</a>
+              </li>
+            </ul>
+          </footer>
+        </article>
     </section>
 
       <nav role="pagination" class="post-list-pagination">
-  <span class="post-list-pagination-item post-list-pagination-item-current">Page 0 of 0</span>
+  <span class="post-list-pagination-item post-list-pagination-item-current">Page 1 of 1</span>
 </nav>
 
 
@@ -171,7 +211,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script src="//blog.urusa.me/themes/ghostium/assets/js/foot-scripts.min.js?v=1476864842126"></script>
+    <script src="//blog.urusa.me/themes/ghostium/assets/js/foot-scripts.min.js?v=1476864874623"></script>
 
 
   </body>
