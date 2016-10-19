@@ -10,7 +10,7 @@ hash값에는 224, 256, 384, 512중 하나를 넣어주면 된다.
 *소스코드*
 
 [source,java]
---
+----
 public class Crypto {
     public String CryptoSHA3(String key, int hash) {
 	
@@ -37,7 +37,7 @@ public class Crypto {
 		System.out.println("HASH 512 : " + crt.CryptoSHA3("가나다라마바", 512));
     }
 }
---
+----
 
 *출력*
 -----
