@@ -5,7 +5,10 @@
     "branch": "gh-pages",
     "cname": "blog.urusa.me"
   },
-  "site": {},
+  "site": {
+    "title": "SnorlaxH",
+    "description": "SnorlaxH"
+  },
   "socialnetwork": {
     "email": "starboard@urusa.me",
     "facebook": "",
