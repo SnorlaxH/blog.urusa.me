@@ -5,7 +5,9 @@
     "branch": "gh-pages",
     "cname": "blog.urusa.me"
   },
+  "site": {},
+  "socialnetwork": {},
   "theme": {
-    "name": "Casper"
+    "name": "casper"
   }
 }
