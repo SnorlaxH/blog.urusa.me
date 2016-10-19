@@ -2,7 +2,8 @@
   "meta": {
     "username": "snorlaxh",
     "repositoryName": "blog.urusa.me",
-    "branch": "gh-pages"
+    "branch": "gh-pages",
+    "cname": "blog.urusa.me"
   },
   "theme": {
     "name": "Casper"
