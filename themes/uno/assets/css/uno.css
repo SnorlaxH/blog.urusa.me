@@ -1035,10 +1035,14 @@ pre {
   font-size: .9em;
   font-weight: normal;
   line-height: 1.3em; }
-  pre code {
-    padding: 0;
-    background: none;
-    border: none; }
+pre code {
+  padding: 0;
+  background: none;
+  border: none; }
+.highlight {
+  background: none;
+  border: none;
+}
 
 .date,
 .time,
