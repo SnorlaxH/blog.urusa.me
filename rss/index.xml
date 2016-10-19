@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SnorlaxH]]></title><description><![CDATA[SnorlaxH]]></description><link>http://blog.urusa.me</link><generator>RSS for Node</generator><lastBuildDate>Wed, 19 Oct 2016 08:02:44 GMT</lastBuildDate><atom:link href="http://blog.urusa.me/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java SHA3 암호화 라이브러리]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SnorlaxH]]></title><description><![CDATA[SnorlaxH]]></description><link>http://blog.urusa.me</link><generator>RSS for Node</generator><lastBuildDate>Wed, 19 Oct 2016 08:05:53 GMT</lastBuildDate><atom:link href="http://blog.urusa.me/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Java SHA3 암호화 라이브러리]]></title><description><![CDATA[<div class="paragraph">
 <p>BouncyCastle 라이브러리를 이용하여 Java에서 SHA3 암호화를 할 수 있다.
 MIT License의 라이브러리이며 SHA3 이외에 다른 암호화 방식도 지원한다.
 CrtyoSHA3의 key값에는 암호화할 문자를 넣으면 되고
@@ -9,11 +9,11 @@ hash값에는 224, 256, 384, 512중 하나를 넣어주면 된다.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>public class Crypto {
+<pre class="highlight"><code class="language-java" data-lang="java">public class Crypto {
     public String CryptoSHA3(String key, int hash) {
 
-		// 1.x 버전
-        //DigestSHA3 md = new DigestSHA3(hash);
+	// 1.x 버전
+    	//DigestSHA3 md = new DigestSHA3(hash);
         // 2.x 이상 부터
         DigestKeccak  md = new DigestKeccak(hash);
         try {
@@ -34,7 +34,7 @@ hash값에는 224, 256, 384, 512중 하나를 넣어주면 된다.</p>
 		System.out.println("HASH 384 : " + crt.CryptoSHA3("가나다라마바", 384));
 		System.out.println("HASH 512 : " + crt.CryptoSHA3("가나다라마바", 512));
     }
-}</pre>
+}</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -47,4 +47,7 @@ HASH 256 : 9bd8525800c25e5d15132c5503b771d302f801902934b139f00b0710d76485fd
 HASH 384 : 663f3b7d43554c70a3e6aea819a76da6dfe8211604ef709148fb3bcf0f136ddfb5d8d03bb2ba1f260f88e97391855ea9
 HASH 512 : 12aa8a5a125c9177d83da90b69d182ee220eaf22584120af61c51821e31f9dc8072d95e5cc4b3caec3b19345dbeefd8e1cd407f238f13711ac9965122aa6d1a4</pre>
 </div>
+</div>
+<div class="paragraph">
+<p>BountyCastle Release : <a href="http://www.bouncycastle.org/latest_releases.html" class="bare">http://www.bouncycastle.org/latest_releases.html</a></p>
 </div>]]></description><link>http://blog.urusa.me/2016/10/19/Java-SH-A.html</link><guid isPermaLink="true">http://blog.urusa.me/2016/10/19/Java-SH-A.html</guid><pubDate>Wed, 19 Oct 2016 00:00:00 GMT</pubDate></item></channel></rss>
